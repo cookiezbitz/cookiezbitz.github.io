@@ -1061,6 +1061,7 @@ main {
   box-shadow: var(--shadow-4);
   border-radius: 16px;
   z-index: 1;
+  color:white;
 }
 
 .blog-post-item > a::before {
