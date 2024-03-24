@@ -125,14 +125,7 @@
   box-sizing: border-box;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:visited {
-  color: yellow;
-}
+a { text-decoration: none; }
 
 li { list-style: none; }
 
@@ -958,7 +951,9 @@ main {
   100% { transform: scale(1); }
 }
 
-.project-item > a { width: 100%; }
+.project-item > a { 
+  color: white;
+  width: 100%; }
 
 .project-img {
   position: relative;
